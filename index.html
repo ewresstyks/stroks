@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 2
+        // let username;
+        // do {
+        //     username = prompt("Ваше ФИО -- ");
+        //     let a = true;
+
+        //     for (let i = 0; i < username.length; i++) {
+        //         let lett = username[i];
+        //         if (!((lett >= 'А' && lett <= 'Я') || (lett >= 'а' && lett <= 'я') || (lett >= 'A' && lett <= 'Z') || (lett >= 'a' && lett <= 'z') || lett === ' ' || lett === '.')) {
+        //             a = false;
+        //             break;
+        //         }
+        //     }
+        //     if (!a) {
+        //         alert("Вашне ФИО содержит недопустимые символы!\nПовторите попытку ввода.");
+        //         continue;
+        //     }
+        //     else{
+        //         alert("Спасибо!!!");
+        //         break;
+        //     }
+        // }
+        // while (true);
+
+        // 3
+        str = "http://www.ufa.com.ua/utilites/hdd/out.php?sort=2"
+        let http = str.substring(0, 5);
+        document.write(http + "<br />");
+        let www = str.substring(8, 21);
+        document.write(www + "<br />");
+        let ut = str.substring(21, 35);
+        document.write(ut + "<br />");
+        let out = str.substring(35, 42);
+        document.write(out + "<br />");
+        let sort = str.substring(43, 49);
+        document.write(sort + "<br />");
+    </script>
+</body>
+
+</html>
